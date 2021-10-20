@@ -1,3 +1,6 @@
+/*
+program menghitung 5 bilangan dan rata-ratanya
+*/
 import java.util.Scanner;
 class Soal_1 { 
     

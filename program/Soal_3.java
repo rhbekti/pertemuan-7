@@ -1,3 +1,6 @@
+/*
+program menghitung total gaji karyawan berdasarkan masa kerja 
+*/
 import java.util.Scanner;
 class Soal_3 { 
     

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sobat coding"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-20 02:42:15 "/>
+        <attribute name="created" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjM4OjQ3ICI7Mjc1MQ=="/>
+        <attribute name="edited" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjQyOjE1ICI7MTsyODQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celcius, kelvin" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan suhu dalam celcius = &quot;" newline="True"/>
+            <input variable="celcius"/>
+            <assign variable="kelvin" expression="celcius + 273.15"/>
+            <output expression="&quot;suhu dalam kelvin = &quot;&amp;kelvin" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

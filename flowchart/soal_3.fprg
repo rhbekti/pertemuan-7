@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sobat coding"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-20 02:50:03 "/>
+        <attribute name="created" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjQyOjM4ICI7Mjc0Ng=="/>
+        <attribute name="edited" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjUwOjAzICI7MjsyODQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="masaKerja, gajiPokok" type="Integer" array="False" size=""/>
+            <declare name="totalGaji" type="Real" array="False" size=""/>
+            <output expression="&quot;masukkan masa kerja anda = &quot;" newline="False"/>
+            <input variable="masaKerja"/>
+            <output expression="&quot;masukkan gaji pokok anda = &quot;" newline="False"/>
+            <input variable="gajiPokok"/>
+            <if expression="masaKerja &gt; 3">
+                <then>
+                    <assign variable="totalGaji" expression="0.2 * gajiPokok"/>
+                </then>
+                <else>
+                    <assign variable="totalGaji" expression="0.1 * gajiPokok"/>
+                </else>
+            </if>
+            <output expression="&quot;total gaji anda = &quot;&amp;totalGaji" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

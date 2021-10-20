@@ -1,3 +1,6 @@
+/*
+program konversi celcius ke kelvin
+*/
 import java.util.Scanner;
 class Soal_2 { 
     

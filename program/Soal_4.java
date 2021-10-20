@@ -1,3 +1,6 @@
+/*
+program mencari bilangan kelipatan 2 dan 5
+*/
 import java.util.Scanner;
 class Soal_4 { 
     

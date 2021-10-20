@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sobat coding"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-20 02:53:20 "/>
+        <attribute name="created" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjUwOjI2ICI7Mjc0Mg=="/>
+        <attribute name="edited" value="c29iYXQgY29kaW5nO0JFS1RJOzIwMjEtMTAtMjA7IjAyOjUzOjIwICI7MTsyODQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bilangan" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan bilangan = &quot;" newline="False"/>
+            <input variable="bilangan"/>
+            <if expression="bilangan%2==0&amp;&amp;bilangan%5==0">
+                <then>
+                    <output expression="&quot;bilangan kelipatan 2 dan 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="bilangan%2==0">
+                        <then>
+                            <output expression="&quot;bilangan kelipatan 2&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="bilangan%5==0">
+                                <then>
+                                    <output expression="&quot;bilangan kelipatan 5&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;bilangan bukan kelipatan 2 dan 5&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
